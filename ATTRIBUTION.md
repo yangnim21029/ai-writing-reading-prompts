@@ -18,3 +18,9 @@
 - 中文補充模板及導讀為本次整理內容，未代表原論文作者的建議或額外實驗結果。
 
 [sources.json](sources.json) 記錄逐檔來源、內容處理、擷取日期與 SHA-256。PDF 保留原始版本，沒有改動內容。
+
+## 本庫產出示範
+
+[examples](examples/) 中的三份中文素材為整理時撰寫的虛構文本；短 prompt 與十二份任務產出由 Gemini API 實際生成，回傳模型版本均為 Gemini 3.6 Flash。對照頁保存模型原始產出與執行資料，由讀者自行比較。
+
+填入素材的論文 prompt 及包含該原文的請求檔，保留各自來源授權：清晰度修訂採 CC BY-NC-SA 4.0，敘事模板採 CC BY 4.0，細讀任務採 MIT。模板調整記錄於各示範頁及 case.json；模型請求、回覆與檔案雜湊見 [examples/manifest.json](examples/manifest.json)。

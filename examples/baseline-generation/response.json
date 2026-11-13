@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"clarity\": \"Identify vague phrasing, logical gaps, and awkward structure in the attached text. Provide specific revision suggestions to enhance readability, flow, and overall precision of the message.\",\n  \"narrative\": \"Rewrite the provided plot outline as an engaging first-person narrative from the perspective of Lin An (林安), capturing their internal thoughts, emotional tone, and immediate reactions to the events.\",\n  \"close-reading\": \"Examine the provided poem by analyzing its central themes, imagery, figurative language, and structural choices, explaining how these literary devices contribute to its overall meaning and emotional impact.\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 160,
+    "candidatesTokenCount": 128,
+    "totalTokenCount": 1298,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 160
+      }
+    ],
+    "thoughtsTokenCount": 1010,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "H732aq_HEru21e8PjLen2QI"
+}

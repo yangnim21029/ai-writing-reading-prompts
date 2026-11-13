@@ -6,6 +6,8 @@ Chao Zhang、Abe Davis<br>
 
 [論文 PDF](paper.pdf) · [HTML 全文](https://arxiv.org/html/2608.10337v1) · [原始 Prompts 附錄](https://arxiv.org/html/2608.10337v1#A1) · [回到目錄](../../README.md)
 
+[附錄 A.5 的實際產出對照](../../examples/narrative/)：以同一份 225 字情節，比較第一人稱模板與 AI 生成的短 prompt。此示範只使用 A.5，與論文整套流程的評估分開呈現。
+
 ## 以角色狀態控制故事生成
 
 Narrative Keyframing 讓作者指定角色在不同劇情段落中的狀態，包括外在特徵（physiology）、心理特徵（psychology）與社會關係（sociology）。這些設定構成 character keyframes。系統依角色狀態生成第一人稱敘述，再從敘述中擷取能支持角色特質的文字細節，供第三人稱故事生成與修訂使用。

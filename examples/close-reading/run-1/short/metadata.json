@@ -1,0 +1,30 @@
+{
+  "requested_model": "gemini-3.5-flash",
+  "returned_model_version": "gemini-3.6-flash",
+  "started_at_utc": "2026-11-13T07:35:25.140741+00:00",
+  "elapsed_seconds": 61.352,
+  "generation_config": {
+    "temperature": 0.7,
+    "topP": 0.95,
+    "maxOutputTokens": 8192,
+    "candidateCount": 1,
+    "seed": 20261113
+  },
+  "usage": {
+    "promptTokenCount": 330,
+    "candidatesTokenCount": 237,
+    "totalTokenCount": 3672,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 330
+      }
+    ],
+    "thoughtsTokenCount": 3105,
+    "serviceTier": "standard"
+  },
+  "finish_reason": "STOP",
+  "output_cjk_characters": 249,
+  "request_sha256": "3f18600ee663a63f388ee7cc8bd1fe8cd125b20fb7beb183369e84d1bd842146",
+  "output_sha256": "b5f803cccd3e89f8db391dfe1ed82be02c467a6dd2292cca58bda1d16591473d"
+}

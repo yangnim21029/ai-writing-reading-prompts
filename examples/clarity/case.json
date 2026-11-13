@@ -1,0 +1,9 @@
+{
+  "title": "清晰度修訂",
+  "task": "Review the supplied draft for clarity and suggest improvements.",
+  "source": "writing-revision/2604.11009-planning-to-revision/prompts/06-writing-clarity.en.txt",
+  "paper": "https://arxiv.org/html/2604.11009v2#A3.SS3.SSS2",
+  "changes": "Replaced {draft} with the shared Chinese material. Original clarity instructions retained. Added the same Chinese language and length instruction to both conditions.",
+  "material_cjk_characters": 232,
+  "source_template_sha256": "04af11f77f1640fc266bb124c30e63c72a7c8bfaf1dbea875d5a4bf007c12cb7"
+}

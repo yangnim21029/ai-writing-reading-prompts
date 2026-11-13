@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "本詩以空間距離與情感疏離為核心主題，藉由細膩的意象與修辭描繪出異鄉子女對母愛的愧疚與思念。\n\n詩中「門口的燈」與「那一小塊黃」象徵母親無聲的守候與溫暖，與主角異地房間的冷清形成強烈對比。「未拆封的麵慢慢失去熱氣」將生活疲累與孤獨具象化；「房間安靜得像一條巷子」則運用明喻，將現實空間與記憶中的家巷重疊，延伸孤寂感。\n\n結構上採時空交錯，從電話對白推移至童年回憶，最後落腳於掛斷電話後的微小動作。結尾「把麵放進鍋裡等水重新沸騰」與「一直站在門邊」，將原本被動的疏離轉化為對溫暖的渴望與同理。行李聲的漸遠，深刻反襯出主角內心停滯且沉重的思鄉情緒，增添無盡的情感餘韻。"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 330,
+    "candidatesTokenCount": 237,
+    "totalTokenCount": 3672,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 330
+      }
+    ],
+    "thoughtsTokenCount": 3105,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "vb32aqaRGK-w1e8PxPjF4AU"
+}

@@ -1,0 +1,5 @@
+{
+  "clarity": "Identify vague phrasing, logical gaps, and awkward structure in the attached text. Provide specific revision suggestions to enhance readability, flow, and overall precision of the message.",
+  "narrative": "Rewrite the provided plot outline as an engaging first-person narrative from the perspective of Lin An (林安), capturing their internal thoughts, emotional tone, and immediate reactions to the events.",
+  "close-reading": "Examine the provided poem by analyzing its central themes, imagery, figurative language, and structural choices, explaining how these literary devices contribute to its overall meaning and emotional impact."
+}

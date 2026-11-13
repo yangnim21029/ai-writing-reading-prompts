@@ -1,0 +1,9 @@
+{
+  "title": "角色第一人稱敘事",
+  "task": "Turn the supplied plot into a first-person narrative from Lin An (林安).",
+  "source": "story-generation/2608.10337-narrative-keyframing/prompts/05-first-person.en.txt",
+  "paper": "https://arxiv.org/html/2608.10337v1#A1.SS5",
+  "changes": "Filled the full-story, target-plot and narrator variables; selected the no-character-keyframe branch; omitted absent custom instructions. Added an explicit JSON output schema, shared by both conditions. Tested only Appendix A.5, not the full Narrative Keyframing pipeline.",
+  "material_cjk_characters": 225,
+  "source_template_sha256": "260c72a3bcc4ef62c38069d43b80171260f92fb8f5065b7670c1807487e4eb49"
+}

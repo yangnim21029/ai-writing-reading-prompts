@@ -1,0 +1,9 @@
+{
+  "title": "詩歌細讀",
+  "task": "Analyze the supplied poem, explaining its meaning and use of language.",
+  "source": "close-reading/2603.06855-poem-interpretation/prompts/close-reading-task.en.txt",
+  "paper": "https://github.com/xxxxbrandieeee/close-reading-interface/blob/main/close-reading/src/pageInfo.ts",
+  "changes": "Original task wording retained, including UI textbox references. Appended the same original Chinese poem. Common instructions map the UI textboxes to normal text output for both conditions.",
+  "material_cjk_characters": 235,
+  "source_template_sha256": "b037f81dd0aa6155697767be71a25e5a92e86e5c5523341377a906bc8aa89fce"
+}

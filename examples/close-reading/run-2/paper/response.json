@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "左框一：詩人使用「一小塊黃」這一獨特的視覺名詞，指稱童年巷口那盞溫暖的門燈。\n右框一：此詞將抽象記憶具象為微小符號，突顯母親守候的溫柔。詩人藉此勾勒游子對家鄉光亮的依戀，引發讀者對親情溫度的共鳴。\n\n左框二：詩末「才發現自己一直站在門邊」這句話，揭示了詩人在通話後無意識模仿母親佇立門口的姿態。\n右框二：這展現出詩人內心的愧疚與思念，揭露他雖身在異鄉，情感卻與母親同步。此描繪讓讀者體會異鄉人無法即刻返家的無奈與愛意。\n\n左框三：本詩運用「燈光」與「空間」的重複對比手法，將異鄉房間與故鄉巷子進行平行疊合。\n右框三：詩人藉由意象重疊模糊了兩地距離，強化牽掛的主題。這種風格使讀者在平實敘述中感受到深沉的孤獨與情感張力。"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 587,
+    "candidatesTokenCount": 266,
+    "totalTokenCount": 4264,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 587
+      }
+    ],
+    "thoughtsTokenCount": 3411,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "BL72aufhApjprfcPm9bImQE"
+}

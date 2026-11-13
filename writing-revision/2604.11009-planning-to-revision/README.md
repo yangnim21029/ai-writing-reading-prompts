@@ -6,6 +6,8 @@ Katy Ilonka Gero、Tao Long、Carly Schnitzler、Paramveer S. Dhillon<br>
 
 [論文 PDF](paper.pdf) · [HTML 全文](https://arxiv.org/html/2604.11009v2) · [原始 Prompts 附錄](https://arxiv.org/html/2604.11009v2#A3) · [回到目錄](../../README.md)
 
+[清晰度 Prompt 的實際產出對照](../../examples/clarity/)：同一份 232 字素材，以原模板與 AI 生成的短 prompt 各執行兩輪，展示完整回覆與修改差異。
+
 ## AI 介入寫作階段的實驗
 
 這項研究探討 AI 在何時介入寫作，會如何影響文章品質，以及作者對文章的心理所有權（psychological ownership）。研究者以「我覺得這篇文章真正屬於我」等作答衡量後者，將它與文章品質分開分析。

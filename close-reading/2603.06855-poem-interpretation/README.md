@@ -6,6 +6,8 @@ Jiayin Zhi、Hoyt Long、Richard Jean So、Mina Lee<br>
 
 [論文 PDF](paper.pdf) · [HTML 全文](https://arxiv.org/html/2603.06855v1) · [研究介面程式](https://github.com/xxxxbrandieeee/close-reading-interface) · [回到目錄](../../README.md)
 
+[細讀 Prompt 的實際產出對照](../../examples/close-reading/)：同一首 235 字中文詩，分別使用原始任務指示與 AI 生成的短 prompt，並排呈現兩輪完整解讀。
+
 ## AI 解讀如何影響讀者的文本分析
 
 研究採隨機實驗，最終納入 400 位參與者。每位參與者閱讀三首詩，並被分配至無 AI 解讀、單份 AI 解讀或三份 AI 解讀的條件。研究測量其後完成的詩歌分析，以及主觀閱讀體驗。

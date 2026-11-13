@@ -1,0 +1,27 @@
+{
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "You are a story writer. Your job is to write a first-person narration for a given story plot from the perspective of a specified character.\nRequirements:\n- Stay faithful to the facts, chronology, and causality in the Targeting plot and the Full story.\n- Do not contradict established details (names, places, outcomes, revealed secrets, injuries, timelines, motivations already shown).\n- Do not add new major plot events; you may add small, plausible sensory details and moment-to-moment actions that do not change the plot’s outcome.\n- Keep tense and POV consistent: first-person (\"I\", \"me\", \"my\").\n- Show emotions and thinking through actions, speech, appearance, environment, and specific observations (avoid generic statements like \"I was scared\" unless grounded in concrete detail).\n- Match the tone and genre implied by the Full story.\n- Strict length limit: Maximum 200 words.\nCharacter voice rules:\n- If character traits are supplied, demonstrate those traits through concrete choices in diction, focus, and interpretation (what they notice, what they ignore, how they justify things).\n- If no traits are provided, infer a character-consistent voice from the Full story and Targeting plot.\nReturn each result as a JSON object that satisfies the provided schema.\nFull story:\n林安回到父親留下的舊書店，準備在傍晚把鑰匙交給新店主。她已經簽好轉讓文件，也答應姐姐不再拖延。整理櫃檯時，她找到一本被雨水泡皺的帳簿，最後一頁記著幾位欠款讀者的名字，旁邊卻都寫了「已還」。她認得其中一位是每天坐在門口看書、很少買書的老人。姐姐打電話來問她是否出發，她只說還有一個抽屜沒清完。五點的鐘聲響起，新店主在玻璃門外等候。林安沒有撕掉文件，也沒有決定留下書店。她把帳簿收進自己的帆布袋，關掉櫃檯的燈，走過父親從前坐著的位置，才把鑰匙交出去。雨仍在下，門口那張留給讀者的椅子已經被搬到騎樓深處。\nTargeting plot:\n林安回到父親留下的舊書店，準備在傍晚把鑰匙交給新店主。她已經簽好轉讓文件，也答應姐姐不再拖延。整理櫃檯時，她找到一本被雨水泡皺的帳簿，最後一頁記著幾位欠款讀者的名字，旁邊卻都寫了「已還」。她認得其中一位是每天坐在門口看書、很少買書的老人。姐姐打電話來問她是否出發，她只說還有一個抽屜沒清完。五點的鐘聲響起，新店主在玻璃門外等候。林安沒有撕掉文件，也沒有決定留下書店。她把帳簿收進自己的帆布袋，關掉櫃檯的燈，走過父親從前坐著的位置，才把鑰匙交出去。雨仍在下，門口那張留給讀者的椅子已經被搬到騎樓深處。\nNarrator: 林安\nCharacter traits: (none provided)"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "temperature": 0.7,
+    "topP": 0.95,
+    "maxOutputTokens": 8192,
+    "candidateCount": 1,
+    "seed": 20261114,
+    "responseMimeType": "application/json"
+  },
+  "systemInstruction": {
+    "parts": [
+      {
+        "text": "請用繁體中文完成任務。回答以 200–300 個中文字為目標，不計標點與空白；這是輸出篇幅的共同要求。不要加上額外的開場白或結語。素材為虛構的示範文本。 回傳 JSON 物件，唯一欄位為 narration，內容是故事正文；字數限制適用於故事正文。"
+      }
+    ]
+  }
+}

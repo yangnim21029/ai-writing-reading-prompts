@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "【左側文字框一】\n詩中「把那個下次推得更遠」將抽象承諾轉化為被距離推開的實體物。\n\n【右側文字框一】\n此擬人寫法凸顯主角身處異鄉的愧疚。作者藉此展現都市喧囂對親情陪伴的吞噬，讓讀者感受無法陪伴父母的焦慮。\n\n【左側文字框二】\n「才發現自己一直站在門邊」揭示了主角對母親的依戀與潛意識模仿。\n\n【右側文字框二】\n這展現作者自省且壓抑的視角，反映他雖未明言，行動上已與母親遙相呼應。這能引發讀者對血緣羈絆的共鳴，體會無聲的關愛。\n\n【左側文字框三】\n全詩重複運用「巷子」與「燈」的意象對比，建立孤獨與溫暖並存的風格。\n\n【右側文字框三】\n這種對比加強了詩歌的視覺感，映照出母子兩地相隔卻心意相通。作者藉微光再現，傳達母愛終能照亮內心陰暗角落的主旨。"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 587,
+    "candidatesTokenCount": 277,
+    "totalTokenCount": 3349,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 587
+      }
+    ],
+    "thoughtsTokenCount": 2485,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "xr32avj1JoGc0-kPwo2BwAI"
+}

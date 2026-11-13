@@ -1,0 +1,20 @@
+{
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Write one concise, competent English prompt for each of the following three tasks. Each prompt must be no more than 35 English words. It should be a useful everyday request, not an intentionally weak baseline. The source material will be appended separately. Language, output length and any output format are supplied separately, so do not specify them. You are not given any research prompts. Return only a JSON object whose keys are clarity, narrative and close-reading and whose values are the three prompt strings.\n\n{\"clarity\": \"Review the supplied draft for clarity and suggest improvements.\", \"narrative\": \"Turn the supplied plot into a first-person narrative from Lin An (林安).\", \"close-reading\": \"Analyze the supplied poem, explaining its meaning and use of language.\"}"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "temperature": 0.7,
+    "topP": 0.95,
+    "maxOutputTokens": 8192,
+    "candidateCount": 1,
+    "seed": 20261112,
+    "responseMimeType": "application/json"
+  }
+}

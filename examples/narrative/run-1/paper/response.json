@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"narration\": \"我回到父親留下的舊書店，準備在傍晚將鑰匙移交給新店主。轉讓文件早已簽妥，我也向姊姊承諾絕不再拖延。清理櫃檯時，我翻出一本被雨水泡得皺縮的帳簿。翻到最後一頁，上面記著幾位讀者的欠款，旁邊卻都補上了「已還」的字跡。我認出其中一個名字，是那位總坐在門口看書、極少買書的老人。姊姊打來電話催促，我抿了抿嘴，只回答還有最後一個抽屜沒清完。五點的鐘聲在雨聲中響起，新店主已經站在玻璃門外靜靜等候。我沒有撕毀文件，也沒有轉身留下這間店。我只是把那本帳簿仔細放進帆布袋，關掉櫃檯微弱的燈光，緩步走過父親以前常坐的位置，最後將鑰匙遞了出去。外頭的雨依舊下個不停，門口那張專門留給讀者的舊椅子，不知何時已被搬到了騎樓的最深處。\"\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 787,
+    "candidatesTokenCount": 264,
+    "totalTokenCount": 4008,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 787
+      }
+    ],
+    "thoughtsTokenCount": 2957,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "t732atPTHoGc0-kPwo2BwAI"
+}

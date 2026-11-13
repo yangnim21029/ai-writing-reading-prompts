@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "### Issue 1\n> \"因為兩個問題的回答並不一樣\"\n>\n> **Issue**: 前文缺乏上下文鋪陳，未能明確說明問卷具體指涉之題目內容與對應關係。\n>\n> **Fix**: \"因為使用率與滿意度兩項調查數據係採分開統計\"\n\n### Issue 2\n> \"延長的部分會影響原來工作\"\n>\n> **Issue**: 文意表達過於含糊，未具體說明延長開放對館員日常既有業務之排擠狀況。\n>\n> **Fix**: \"夜間延長開放時間將嚴重排擠館員之日常既有業務\"\n\n### Issue 3\n> \"把沒有來的人為何沒來弄清楚\"\n>\n> **Issue**: 句式極為口語且用語重複，缺乏正式公文書面報告應有之精確度與專業感。\n>\n> **Fix**: \"廣泛調查並深入釐清潛在使用者未曾到館之背後具體原因\""
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 461,
+    "candidatesTokenCount": 225,
+    "totalTokenCount": 5944,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 461
+      }
+    ],
+    "thoughtsTokenCount": 5258,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "l732av64K5rlrfcPwbTRoQE"
+}

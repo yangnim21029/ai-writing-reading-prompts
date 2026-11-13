@@ -1,0 +1,48 @@
+{
+  "model": "gemini-3.5-flash",
+  "generation": {
+    "temperature": 0.7,
+    "topP": 0.95,
+    "maxOutputTokens": 8192,
+    "candidateCount": 1
+  },
+  "replicate_seeds": [
+    20261113,
+    20261114
+  ],
+  "cases": [
+    "clarity",
+    "narrative",
+    "close-reading"
+  ],
+  "conditions": [
+    "short",
+    "paper"
+  ],
+  "calls_per_case": 4,
+  "system_instruction": "請用繁體中文完成任務。回答以 200–300 個中文字為目標，不計標點與空白；這是輸出篇幅的共同要求。不要加上額外的開場白或結語。素材為虛構的示範文本。",
+  "language": "zh-TW",
+  "material_authorship": "Original fictional materials written for this demonstration",
+  "selection": "First completed generation for each prespecified condition and replicate; all recorded outputs retained",
+  "evaluation": "No editorial quality ratings or comparative interpretations. Full outputs are presented for readers; lengths and API token usage are recorded.",
+  "paper_reproduction": false,
+  "documentation": "https://aistudio.google.com/api-reference/generate-content/generate-content",
+  "observed_returned_model_versions": [
+    "gemini-3.6-flash"
+  ],
+  "provider_routing": "Requests named gemini-3.5-flash; all successful generation responses reported gemini-3.6-flash.",
+  "sampling_note": "The API reference states temperature and topP are silently ignored for Gemini 3.6 Flash and newer. Their recorded request values are not claimed to control actual sampling.",
+  "sampling_documentation": "https://aistudio.google.com/api-reference/generate-content",
+  "successful_trial_outputs": 12,
+  "successful_baseline_generation_calls": 1,
+  "http_failures_retried": [
+    {
+      "case": "narrative",
+      "replicate": 2,
+      "condition": "paper",
+      "http_status": 503,
+      "retry": "Same prompt, generation config and seed; no candidate returned by the failed request"
+    }
+  ],
+  "output_length_note": "All materials are 200–300 CJK characters. Output length was requested at 200–300; outputs of 199 and 301 characters are retained unchanged."
+}

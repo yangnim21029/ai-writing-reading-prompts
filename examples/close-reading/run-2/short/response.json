@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "本詩以「黃光」與「距離」為核心意象，深刻剖析離鄉子女的愧疚與孤寂。詩中母親留著的燈光，象徵無聲卻恆常的母愛；而主角眼前「冷掉的麵」與「漸遠的車聲」，則與這份溫暖形成強烈對比，具象化了都市生活中的疏離與壓抑。\n\n詩人巧用擬人與比喻修辭，將都市「車聲」賦予「推遠歸期」的動作，並將「寂靜房間」化為「暗巷」，使現實困境與記憶場景重疊。結構上採用空間與時間的雙線對照，從電話寒暄轉入童年回憶，最後落腳於主角「加熱麵條」與「站在門邊」的動作。此結尾不僅遙相呼應母親的等待，更在克制的敘事中爆發出濃烈而沉重的鄉愁與遺憾。"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 330,
+    "candidatesTokenCount": 220,
+    "totalTokenCount": 2527,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 330
+      }
+    ],
+    "thoughtsTokenCount": 1977,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "HL72atLrH87hrfcP8v72uAE"
+}

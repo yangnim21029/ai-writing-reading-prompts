@@ -1,0 +1,26 @@
+{
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "[Question] Next we ask: What message or meaning is this poem trying to communicate to you, the reader? How does the poem use its language to accomplish this task? Here, we want you to identify three kinds of examples to answer this question.\n\nFirst example: identify a specific word or phrase that stands out as distinctive in the poem or which is being used in an intentional or irregular way.\n\nSecond example: identify a specific line or phrase that gives you insight into the poet's voice or perspective , revealing something about him or herself.\n\nThird example: Considering a specific phrase or the poem as a whole, identify an element of poetic style that stands out to you and that plays an important role in communicating the poem’s message or meaning. Common examples of style include: repetition, rhythm, rhyme, the use of sounds, and the visual structure or arrangement of the poem, etc.\n\nOnce you have identified your three examples, please then do the following in Your Answer :\n\n1. In each left textbox, write one sentence for each example in which you clearly identify and define the textual feature, using short quotes or references to specific sentences/passages from the poem to help us locate it.\n\n2. Next, in each right textbox, write 2-3 sentences that explain why that textual feature stands out in the poem, why you think this poet chose it, and what is its intended effect on the reader.\n\nPoem:\n末班車開走以後\n母親仍把門口的燈留著\n她說不是等誰\n只是巷子太暗\n\n我在電話這頭答應\n下次回去會早一點\n窗外另一座城市的車聲\n把那個下次推得更遠\n\n她問我有沒有吃飯\n我說吃了\n桌上那碗還沒拆封的麵\n慢慢失去熱氣\n\n通話結束前\n她又說燈泡最近不太亮\n我想起小時候走過巷口\n總能先看見那一小塊黃\n再看見她站在門裡\n手上拿著忘了收起的雨傘\n\n現在我把手機翻過來\n房間忽然安靜得像一條巷子\n我沒有訂票\n也沒有把燈關掉\n只是把那碗麵放進鍋裡\n等水重新沸騰\n\n樓下有人拖著行李經過\n輪子一格一格碰著路面\n我聽到聲音漸漸走遠\n才發現自己一直站在門邊"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "temperature": 0.7,
+    "topP": 0.95,
+    "maxOutputTokens": 8192,
+    "candidateCount": 1,
+    "seed": 20261113
+  },
+  "systemInstruction": {
+    "parts": [
+      {
+        "text": "請用繁體中文完成任務。回答以 200–300 個中文字為目標，不計標點與空白；這是輸出篇幅的共同要求。不要加上額外的開場白或結語。素材為虛構的示範文本。 若任務提到左右文字框，請依序以一般文字呈現對應內容。"
+      }
+    ]
+  }
+}

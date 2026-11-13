@@ -1,0 +1,4 @@
+Identify vague phrasing, logical gaps, and awkward structure in the attached text. Provide specific revision suggestions to enhance readability, flow, and overall precision of the message.
+
+Source material:
+本館上學期試辦延長夜間開放，原先希望讓白天無法到館的學生也能使用空間，但後來的調查發現，表示滿意的人主要是原本就常來的學生，因此這項措施對新使用者的幫助可能沒有預期多。問卷共有八十人回覆，其中六十人曾在晚上使用圖書館，不過這不表示晚上到館的人有四分之三都滿意，因為兩個問題的回答並不一樣。館員認為繼續辦理有其必要，但如果沒有增加人力，延長的部分會影響原來工作，所以建議先保留每週兩天，再觀察一學期。這個安排並不是否定學生的需求，而是在目前條件下，讓服務能夠持續，同時也需要把沒有來的人為何沒來弄清楚。
