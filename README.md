@@ -1,93 +1,90 @@
 # AI Writing and Reading Prompts
 
-2026 年寫作與閱讀研究的論文與公開 prompt 合集。依用途整理 5 篇 arXiv 論文，提供 PDF、可複製的英文模板、真實使用者提示紀錄，以及繁體中文導讀。
+收錄 2026 年五篇寫作與閱讀研究，以及作者公開的實驗 prompts。研究主題涵蓋寫作階段、文學風格模仿、角色建構、詩歌細讀與人機協作。每篇資料夾保存論文 PDF，並說明 prompt 如何用於實驗、成效由誰評估，以及哪些條件需要一併重現。
 
-## 目錄
+本目錄以可查核的研究方法為選錄依據。各篇的比較對象不同：有些比較人機協作與獨立寫作，有些比較兩套 AI 生成流程，也有研究直接比較 AI 與人類作者。以下保留這些差異，供閱讀論文與改用 prompt 時參考。
 
-- [寫作規劃與局部修訂](#寫作規劃與局部修訂)
-- [範文與風格模仿](#範文與風格模仿)
-- [角色與故事生成](#角色與故事生成)
-- [詩歌細讀與解釋](#詩歌細讀與解釋)
-- [人機共寫與多輪修改](#人機共寫與多輪修改)
-- [使用方式](#使用方式)
-- [來源與授權](#來源與授權)
+## 文獻目錄
 
-## 快速選擇
+| 研究主題 | 論文與方法說明 | 公開的 Prompt 資料 |
+|---|---|---|
+| 寫作階段與心理所有權 | [From Planning to Revision](writing-revision/2604.11009-planning-to-revision/) | 論點發想、大綱、起草、校對、清晰度與論證修訂 |
+| 文學風格模仿 | [Can Good Writing Be Generative?](style-imitation/2601.18353-good-writing/) | 50 位作家的原始 prompt 連結；依研究方法整理的填空模板 |
+| 角色建構與敘事生成 | [Narrative Keyframing](story-generation/2608.10337-narrative-keyframing/) | 角色特質、第一人稱視角、文本證據與第三人稱敘事 |
+| AI 解讀與詩歌細讀 | [What Does AI Do for Cultural Interpretation?](close-reading/2603.06855-poem-interpretation/) | 辨認文本特徵、引用詩句與解釋閱讀效果的任務指示 |
+| 協作寫作與獎勵制度 | [Incentives Shape How Humans Co-Create](human-ai-cowriting/2604.03529-incentives/) | 參與者的多輪提示紀錄，以及短故事與商品簡介的評分 prompts |
 
-| 想做的事 | 從這裡開始 |
-|---|---|
-| 找出不清楚的句子 | [清晰度修改 prompt](writing-revision/2604.11009-planning-to-revision/prompts/06-writing-clarity.en.txt) |
-| 校對、擬大綱、寫初稿 | [寫作階段模板](writing-revision/2604.11009-planning-to-revision/) |
-| 讓文字參考指定範文的風格 | [風格模仿方法與模板](style-imitation/2601.18353-good-writing/) |
-| 設計角色成長與故事視角 | [Narrative Keyframing](story-generation/2608.10337-narrative-keyframing/) |
-| 讀詩、引用文字並解釋效果 | [詩歌細讀指示](close-reading/2603.06855-poem-interpretation/prompts/close-reading-task.en.txt) |
-| 看別人如何多輪修改故事或商品文案 | [使用者 prompt 紀錄](human-ai-cowriting/2604.03529-incentives/) |
+## 寫作階段與心理所有權
 
-## 寫作規劃與局部修訂
+### From Planning to Revision: How AI Writing Support at Different Stages Alters Ownership
 
-**[From Planning to Revision: How AI Writing Support at Different Stages Alters Ownership](writing-revision/2604.11009-planning-to-revision/)** · 雪梨大學、哥倫比亞大學、約翰霍普金斯大學、密西根大學 · 2026-04-13
+Katy Ilonka Gero、Tao Long、Carly Schnitzler、Paramveer S. Dhillon<br>
+雪梨大學、哥倫比亞大學、約翰霍普金斯大學、密西根大學 · 2026-04-13 · arXiv:2604.11009v2
 
-把 AI 放在規劃、起草或修訂階段，研究寫作品質與心理所有權。起草組的品質增益最大；不能把這個結果當成每個修訂 prompt 都有效的證明。
+這項實驗將 253 位參與者分為四組，分別在規劃、起草、修訂階段使用 AI，或全程獨立完成議論文。研究同時評估文章品質與心理所有權，也就是作者是否認為文章真正屬於自己。經控制題目、字數與作答時間後，起草組的品質分數為 7.27，無 AI 組為 5.69，量尺為 0–9 分；品質由經人工評分樣本校準的語言模型評估。起草組也出現最大的心理所有權下降。[研究結果](https://arxiv.org/html/2604.11009v2#S5.SS4)
 
-[Paper](https://arxiv.org/abs/2604.11009) · [PDF](writing-revision/2604.11009-planning-to-revision/paper.pdf) · [Prompts](writing-revision/2604.11009-planning-to-revision/prompts/) · [使用說明](writing-revision/2604.11009-planning-to-revision/README.md)
+附錄 C 公開各階段的七份 prompts。清晰度與校對模板要求模型引用原文片段，再提出可直接替換的修改文字；起草模板則依使用者的大綱生成全文。實驗中最明顯的品質增益來自起草條件，單獨使用清晰度或校對模板的效果需另行評估。
 
-## 範文與風格模仿
+[PDF](writing-revision/2604.11009-planning-to-revision/paper.pdf) · [實驗與 Prompt 說明](writing-revision/2604.11009-planning-to-revision/) · [清晰度修改原始 Prompt](writing-revision/2604.11009-planning-to-revision/prompts/06-writing-clarity.en.txt)
 
-**[Can Good Writing Be Generative? Expert-Level AI Writing Emerges through Fine-Tuning on High-Quality Books](style-imitation/2601.18353-good-writing/)** · 密西根大學、石溪大學 · 2026-01-26
+## 文學風格模仿
 
-比較 20 段範文的 in-context prompting 與作家作品微調。只用 prompt 時，一般讀者對部分模型有較高偏好，專家整體仍偏好人類；專家偏好 AI 的主要優勢來自另外微調。
+### Can Good Writing Be Generative? Expert-Level AI Writing Emerges through Fine-Tuning on High-Quality Books
 
-[Paper](https://arxiv.org/abs/2601.18353) · [PDF](style-imitation/2601.18353-good-writing/paper.pdf) · [Prompts](style-imitation/2601.18353-good-writing/prompts/) · [使用說明](style-imitation/2601.18353-good-writing/README.md)
+Tuhin Chakrabarty、Paramveer S. Dhillon<br>
+石溪大學、密西根大學 · 2026-01-26 · arXiv:2601.18353v1
 
-## 角色與故事生成
+研究請人類作者與語言模型依同一份內容要求，模仿指定作家的風格。In-context prompting 條件提供 20 段範文、風格描述及待寫內容；另一條件則以作家的完整作品微調 GPT-4o。評審分為具寫作背景的專家與一般讀者，分別判斷寫作品質和風格相似度。
 
-**[Narrative Keyframing for Generative Creative Writing](story-generation/2608.10337-narrative-keyframing/)** · 康乃爾大學 · 2026-08-11
+只使用 prompt 時，GPT-4o 在一般讀者評審中的寫作品質勝率為 66%，在專家評審中為 12%；Claude 3.5 Sonnet 分別為 56% 與 30%。另行微調 GPT-4o 後，專家評審的勝率才提高至 62.2%。這些數字是指定寫作任務下的人類偏好，不能直接解讀為閱讀理解或原意保留的改善。[評審與模型的分項結果](https://arxiv.org/html/2601.18353v1#A1.SS2)
 
-把劇情、角色特質和視角分成可控制的步驟，再生成第三人稱故事。人類評審較偏好多步驟流程產出的故事；比較對象也是 AI。
+[PDF](style-imitation/2601.18353-good-writing/paper.pdf) · [實驗與 Prompt 說明](style-imitation/2601.18353-good-writing/) · [50 位作家的原始 Prompt 目錄](style-imitation/2601.18353-good-writing/upstream-prompts.md)
 
-[Paper](https://arxiv.org/abs/2608.10337) · [PDF](story-generation/2608.10337-narrative-keyframing/paper.pdf) · [Prompts](story-generation/2608.10337-narrative-keyframing/prompts/) · [使用說明](story-generation/2608.10337-narrative-keyframing/README.md)
+## 角色建構與敘事生成
 
-## 詩歌細讀與解釋
+### Narrative Keyframing for Generative Creative Writing
 
-**[What Does AI Do for Cultural Interpretation? A Randomized Experiment on Close Reading Poems with Exposure to AI Interpretation](close-reading/2603.06855-poem-interpretation/)** · 芝加哥大學、杜克大學 · 2026-03-06
+Chao Zhang、Abe Davis<br>
+康乃爾大學 · 2026-08-11 · arXiv:2608.10337v1
 
-讀者先看預先生成的 AI 詩歌解讀，再自行分析文本。研究觀察到詮釋與寫作品質改善；它評估的是 AI 協助讀者的效果。
+作者把故事生成拆成角色特質設定、第一人稱敘述、文本證據擷取與第三人稱敘事等步驟，讓角色在不同劇情段落中的變化能被明確指定。實驗以相同的 GPT-4.1 與故事大綱，比較這套流程和一般的大綱擴寫方法。
 
-[Paper](https://arxiv.org/abs/2603.06855) · [PDF](close-reading/2603.06855-poem-interpretation/paper.pdf) · [Prompts](close-reading/2603.06855-poem-interpretation/prompts/) · [使用說明](close-reading/2603.06855-poem-interpretation/README.md)
+在隨機抽取的 30 組故事中，三位具專業寫作經驗的評審以多數決判定：25 組較偏好此方法的整體品質，29 組認為其角色刻畫較豐富。這項結果支持特定生成流程的優勢。部分評審也指出，增加角色細節有時會使文字過度鋪陳，因此角色刻畫與閱讀流暢度仍須分別考察。[評估方法與結果](https://arxiv.org/html/2608.10337v1#S6.SS1)
 
-## 人機共寫與多輪修改
+[PDF](story-generation/2608.10337-narrative-keyframing/paper.pdf) · [生成流程與八份 Prompt](story-generation/2608.10337-narrative-keyframing/)
 
-**[Incentives Shape How Humans Co-Create with Generative AI](human-ai-cowriting/2604.03529-incentives/)** · 麻省理工學院 · 2026-04-04
+## AI 解讀與詩歌細讀
 
-短故事和商品簡介實驗公開參與者的實際提示紀錄。作者描述 AI 協助的技術品質較高，同時觀察到作品同質化；沒有單一標準寫作 prompt。
+### What Does AI Do for Cultural Interpretation? A Randomized Experiment on Close Reading Poems with Exposure to AI Interpretation
 
-[Paper](https://arxiv.org/abs/2604.03529) · [PDF](human-ai-cowriting/2604.03529-incentives/paper.pdf) · [Prompts](human-ai-cowriting/2604.03529-incentives/prompts/) · [使用說明](human-ai-cowriting/2604.03529-incentives/README.md)
+Jiayin Zhi、Hoyt Long、Richard Jean So、Mina Lee<br>
+芝加哥大學、杜克大學 · 2026-03-06 · arXiv:2603.06855v1
 
-## 使用方式
+400 位參與者被隨機分配至三種條件：閱讀一份 AI 解讀、閱讀三份不同的 AI 解讀，或不接觸 AI 解讀，隨後完成三首詩的文本分析。GPT-4o 依與參與者相同的任務指示生成單份解讀，內容經研究人員評分檢查後才用於實驗。
 
-1. 依用途選論文，打開該篇的 `prompts/`。檔名有 `adapted` 的是整理者改編；其餘來源和類型見各篇 README。
-2. 將 `{draft}`、`{outline}` 或 `<character_name>` 等欄位替換為自己的內容；多步驟方法需按流程提供前一步輸出。
-3. 閱讀各篇的比較對象與研究範圍。人機協作增益、AI 流程比較、一般讀者偏好及微調結果，不能合併成「只貼 prompt 就勝過人類」。
+相較於無 AI 組，閱讀單份 AI 解讀的參與者在詮釋品質上平均增加 0.865 分，寫作品質增加 1.035 分；兩項皆採 1–5 分量尺，且 p < .001。這裡測量的是讀者接觸 AI 解讀之後的分析表現。公開的 prompt 要求辨認特殊用字、詩人的聲音或視角、詩歌形式，並以引文解釋其效果。[研究結果](https://arxiv.org/html/2603.06855v1#S4.SS1.SSS1)
 
-[CSV 清單](catalog.csv) · [JSON 清單](catalog.json) · [逐檔來源紀錄](sources.json) · [額外的中文局部修改模板](templates/)
+[PDF](close-reading/2603.06855-poem-interpretation/paper.pdf) · [實驗與 Prompt 說明](close-reading/2603.06855-poem-interpretation/) · [原始細讀任務指示](close-reading/2603.06855-poem-interpretation/prompts/close-reading-task.en.txt)
 
-## 目錄結構
+## 協作寫作與獎勵制度
 
-```text
-writing-revision/       規劃、起草與修訂
-style-imitation/        20 段範文、風格說明與指定內容
-story-generation/      角色特質、視角與敘事生成
-close-reading/         詩歌細讀與文本解釋
-human-ai-cowriting/     使用者提示紀錄與品質評分
-templates/             另外整理的中文實用模板
-```
+### Incentives Shape How Humans Co-Create with Generative AI
 
-每個論文資料夾包含 `README.md`、`paper.pdf` 與 `prompts/`。
+Nathanael Jo、Manish Raghavan<br>
+麻省理工學院 · 2026-04-04 · arXiv:2604.03529v2
 
-## 來源與授權
+兩項實驗分別招募 200 人撰寫短故事、400 人撰寫商品簡介，交叉比較是否使用 AI，以及獎勵原創性或技術品質的條件。研究關注獎勵制度如何影響人機協作過程與作品間的差異。技術品質在這裡指文章組織、語言表達或資訊傳達等可依評分規準判斷的面向。
 
-論文、研究模板與資料保留各自的原始授權和作者歸屬，詳見 [ATTRIBUTION](ATTRIBUTION.md)。其中 From Planning to Revision 採 CC BY-NC-SA 4.0；詩歌細讀介面程式採 MIT。作家風格原始 prompts 的完整文學節錄保留於上游，這裡提供目錄與改編模板。
+作者的描述性分析顯示，AI 協助的作品技術品質較高，同時存在作品同質化的現象。這篇公開了 AI 組參與者實際輸入的多輪 prompts，適合觀察提問與修改過程；另公開兩份用於品質評估的 system prompts。使用者紀錄中的每則提示並未個別接受成效檢驗。[品質分析](https://arxiv.org/html/2604.03529v2#S7.SS2)
 
-本合集整理與註解使用 AI 輔助，並依來源核對。版本固定為所列的 arXiv v1／v2；收錄範圍為本次選出的五篇，並非完整年度文獻回顧。
+[PDF](human-ai-cowriting/2604.03529-incentives/paper.pdf) · [實驗與資料說明](human-ai-cowriting/2604.03529-incentives/) · [短故事提示範例](human-ai-cowriting/2604.03529-incentives/prompts/study1-examples.md) · [商品簡介提示範例](human-ai-cowriting/2604.03529-incentives/prompts/study2-examples.md)
+
+## 檔案與來源
+
+每篇論文的資料夾包含 `paper.pdf`、`prompts/` 與研究說明。從附錄或程式擷取的英文 prompts 保留原文，只移除網頁排版；作家風格的填空模板標記為 `adapted`，完整原始 prompts 另列上游連結。額外撰寫的[中文局部修改模板](templates/)獨立存放，未經上述研究驗證。
+
+[CSV 文獻清單](catalog.csv) · [JSON 文獻清單](catalog.json) · [逐檔來源與檔案雜湊](sources.json) · [作者歸屬與授權](ATTRIBUTION.md)
+
+本目錄採用所列 arXiv 版本，收錄範圍限於這五篇研究。論文、prompts 與資料沿用各自授權；其中 From Planning to Revision 為 CC BY-NC-SA 4.0。中文說明以 AI 輔助整理並對照來源，英文原始 prompts 與另行改編的模板分開標示。
 
 整理日期：2026-11-13。
