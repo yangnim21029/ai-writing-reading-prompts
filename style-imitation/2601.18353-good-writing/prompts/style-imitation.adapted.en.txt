@@ -1,0 +1,15 @@
+Study the following 20 writing samples for their style and narrative voice.
+
+[WRITING SAMPLES]
+Sample 1: {sample_1}
+Sample 2: {sample_2}
+... supply all samples through Sample 20 ...
+Sample 20: {sample_20}
+
+[STYLE FEATURES]
+{style_features}
+
+[REQUIRED CONTENT]
+{content_brief}
+
+Write a passage of {word_count} words that presents the required content using the style and narrative voice demonstrated by the samples and described in the style features.

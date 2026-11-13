@@ -1,0 +1,16 @@
+Generating Third-Person Narratives:
+You are a narrative writer. Expand the provided story outline into a third-person story.
+Story outlines:
+<plot[0]>
+<plot[1]>
+<…>
+Main characters:
+<character_list>
+Instructions:
+- Write a cohesive full story that follows the outline exactly
+- Use third-person narration
+- Include both main characters throughout
+- Maintain chronological order and clear act progression
+- Return the story per act, in order, with 1-2 paragraphs per act
+- Each act entry should include the act number, the act label from the outline, and the act text
+Return JSON that matches the provided schema.

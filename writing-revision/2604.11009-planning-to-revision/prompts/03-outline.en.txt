@@ -1,0 +1,9 @@
+Create a very concise outline for a 300-word argumentative essay on this topic: {promptText}
+The main thesis/idea is: {idea}
+
+The outline must be extremely brief (no more than 20 lines total) with minimal formatting:
+- One short introduction point
+- 2-3 main points (no more than 15 words each)
+- One short conclusion point
+
+Use simple bullet points only. No sub-bullets or complex formatting.

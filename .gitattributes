@@ -1,0 +1,5 @@
+*.pdf binary
+*.csv -text
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf

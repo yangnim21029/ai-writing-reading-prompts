@@ -1,0 +1,216 @@
+[
+  {
+    "arxiv_id": "arXiv:2604.11009",
+    "version": "v2",
+    "title": "From Planning to Revision: How AI Writing Support at Different Stages Alters Ownership",
+    "authors": [
+      "Katy Ilonka Gero",
+      "Tao Long",
+      "Carly Schnitzler",
+      "Paramveer S. Dhillon"
+    ],
+    "institutions": "雪梨大學、哥倫比亞大學、約翰霍普金斯大學、密西根大學",
+    "category": "寫作規劃與局部修訂",
+    "first_submitted": "2026-04-13",
+    "directory": "writing-revision/2604.11009-planning-to-revision",
+    "paper_url": "https://arxiv.org/abs/2604.11009",
+    "pdf_path": "writing-revision/2604.11009-planning-to-revision/paper.pdf",
+    "comparison": "人類＋AI vs. 無 AI；另比較支援階段",
+    "scope": "研究使用 200–300 字英文議論文。沒有單獨驗證清晰度模板能保留全部原意或避免語意偏移。",
+    "paper_license": "CC BY-NC-SA 4.0",
+    "prompts": [
+      {
+        "file": "01-thesis-ideas.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2604.11009v2#A3.SS1.SSS1"
+      },
+      {
+        "file": "02-more-thesis-ideas.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2604.11009v2#A3.SS1.SSS2"
+      },
+      {
+        "file": "03-outline.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2604.11009v2#A3.SS1.SSS3"
+      },
+      {
+        "file": "04-draft.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2604.11009v2#A3.SS2.SSS1"
+      },
+      {
+        "file": "05-proofreading.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2604.11009v2#A3.SS3.SSS1"
+      },
+      {
+        "file": "06-writing-clarity.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2604.11009v2#A3.SS3.SSS2"
+      },
+      {
+        "file": "07-argument-improvement.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2604.11009v2#A3.SS3.SSS3"
+      }
+    ],
+    "curated_at": "2026-11-13"
+  },
+  {
+    "arxiv_id": "arXiv:2601.18353",
+    "version": "v1",
+    "title": "Can Good Writing Be Generative? Expert-Level AI Writing Emerges through Fine-Tuning on High-Quality Books",
+    "authors": [
+      "Tuhin Chakrabarty",
+      "Paramveer S. Dhillon"
+    ],
+    "institutions": "密西根大學、石溪大學",
+    "category": "範文與風格模仿",
+    "first_submitted": "2026-01-26",
+    "directory": "style-imitation/2601.18353-good-writing",
+    "paper_url": "https://arxiv.org/abs/2601.18353",
+    "pdf_path": "style-imitation/2601.18353-good-writing/paper.pdf",
+    "comparison": "AI vs. 人類作者；須區分 prompt 與微調",
+    "scope": "填空模板是整理者改編，不是作者原始檔；未附原 prompt 的完整文學作品節錄。研究評估短篇風格模仿的品質偏好，沒有直接驗證更好懂或更忠於原意。",
+    "paper_license": "CC BY 4.0",
+    "prompts": [
+      {
+        "file": "style-imitation.adapted.en.txt",
+        "kind": "adapted",
+        "source": "https://arxiv.org/html/2601.18353v1#S3.SS1.SSS3"
+      }
+    ],
+    "curated_at": "2026-11-13"
+  },
+  {
+    "arxiv_id": "arXiv:2608.10337",
+    "version": "v1",
+    "title": "Narrative Keyframing for Generative Creative Writing",
+    "authors": [
+      "Chao Zhang",
+      "Abe Davis"
+    ],
+    "institutions": "康乃爾大學",
+    "category": "角色與故事生成",
+    "first_submitted": "2026-08-11",
+    "directory": "story-generation/2608.10337-narrative-keyframing",
+    "paper_url": "https://arxiv.org/abs/2608.10337",
+    "pdf_path": "story-generation/2608.10337-narrative-keyframing/paper.pdf",
+    "comparison": "多步驟 AI 流程 vs. 一般大綱 AI 流程",
+    "scope": "這是相互連接的生成流程。部分模板要求外部 JSON schema，附錄摘錄未完整提供 schema，執行時需補上；不能只貼一段就宣稱重現整套方法。",
+    "paper_license": "CC BY 4.0",
+    "prompts": [
+      {
+        "file": "01-physiology.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2608.10337v1#A1.SS1"
+      },
+      {
+        "file": "02-psychology.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2608.10337v1#A1.SS2"
+      },
+      {
+        "file": "03-sociology.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2608.10337v1#A1.SS3"
+      },
+      {
+        "file": "04-character-interpolation.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2608.10337v1#A1.SS4"
+      },
+      {
+        "file": "05-first-person.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2608.10337v1#A1.SS5"
+      },
+      {
+        "file": "06-evidence.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2608.10337v1#A1.SS6"
+      },
+      {
+        "file": "07-third-person-1.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2608.10337v1#A1.SS7"
+      },
+      {
+        "file": "07-third-person-2.en.txt",
+        "kind": "original",
+        "source": "https://arxiv.org/html/2608.10337v1#A1.SS7"
+      }
+    ],
+    "curated_at": "2026-11-13"
+  },
+  {
+    "arxiv_id": "arXiv:2603.06855",
+    "version": "v1",
+    "title": "What Does AI Do for Cultural Interpretation? A Randomized Experiment on Close Reading Poems with Exposure to AI Interpretation",
+    "authors": [
+      "Jiayin Zhi",
+      "Hoyt Long",
+      "Richard Jean So",
+      "Mina Lee"
+    ],
+    "institutions": "芝加哥大學、杜克大學",
+    "category": "詩歌細讀與解釋",
+    "first_submitted": "2026-03-06",
+    "directory": "close-reading/2603.06855-poem-interpretation",
+    "paper_url": "https://arxiv.org/abs/2603.06855",
+    "pdf_path": "close-reading/2603.06855-poem-interpretation/paper.pdf",
+    "comparison": "讀者接觸 AI 解讀 vs. 未接觸 AI 解讀",
+    "scope": "論文說單份 AI 解讀使用與參與者相同的任務指示；本庫擷取該介面指示。研究使用事先審核的 AI 內容，沒有收錄可完全重現多份解讀的生成流程。",
+    "paper_license": "CC BY 4.0",
+    "prompts": [
+      {
+        "file": "close-reading-task.en.txt",
+        "kind": "original",
+        "source": "https://github.com/xxxxbrandieeee/close-reading-interface/blob/main/close-reading/src/pageInfo.ts"
+      }
+    ],
+    "curated_at": "2026-11-13"
+  },
+  {
+    "arxiv_id": "arXiv:2604.03529",
+    "version": "v2",
+    "title": "Incentives Shape How Humans Co-Create with Generative AI",
+    "authors": [
+      "Nathanael Jo",
+      "Manish Raghavan"
+    ],
+    "institutions": "麻省理工學院",
+    "category": "人機共寫與多輪修改",
+    "first_submitted": "2026-04-04",
+    "directory": "human-ai-cowriting/2604.03529-incentives",
+    "paper_url": "https://arxiv.org/abs/2604.03529",
+    "pdf_path": "human-ai-cowriting/2604.03529-incentives/paper.pdf",
+    "comparison": "人類＋AI vs. 無 AI；另比較獎勵條件",
+    "scope": "技術品質增益屬描述性分析。評分 prompt 用來評估作品，並不是產生較好作品的寫作指令；個別使用者提示也沒有獨立成效驗證。",
+    "paper_license": "CC BY 4.0",
+    "prompts": [
+      {
+        "file": "study1-quality-judge.en.txt",
+        "kind": "evaluation",
+        "source": "https://arxiv.org/html/2604.03529v2#A2.SS2.SSSx1"
+      },
+      {
+        "file": "study1-user-prompts.csv",
+        "kind": "user-log",
+        "source": "https://huggingface.co/datasets/nathanaeljo/ai-cocreation-incentives/blob/475a751e12ca548f51ad631673e1845330ad3c53/study1/processed/ai_requests.csv"
+      },
+      {
+        "file": "study2-quality-judge.en.txt",
+        "kind": "evaluation",
+        "source": "https://arxiv.org/html/2604.03529v2#A2.SS2.SSSx2"
+      },
+      {
+        "file": "study2-user-prompts.csv",
+        "kind": "user-log",
+        "source": "https://huggingface.co/datasets/nathanaeljo/ai-cocreation-incentives/blob/475a751e12ca548f51ad631673e1845330ad3c53/study2/processed/ai_requests.csv"
+      }
+    ],
+    "curated_at": "2026-11-13"
+  }
+]

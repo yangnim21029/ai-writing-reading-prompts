@@ -1,0 +1,27 @@
+You are analyzing a character’s narration to extract their traits at this specific plot in the story.
+Narration of this plot by <charactor_name> :
+<perspective_of_this_plot>
+If nearby snapshots exist:
+Character keyframes from nearby plots:
+<Previous|Following>
+keyframe of <keyframe_name> :
+Physiology: <trait1, trait2, ...>
+Psychology: <trait1, trait2, ...>
+Sociology: <trait1, trait2, ...>
+If first-person perspective is available:
+Full narration (context only --- do NOT quote from this section):
+<full_perspective_text>
+Based on the narration text < and nearby keyframes> , extract the character traits for <character_name> at this plot.
+Guidelines:
+- Physiology: Physical appearance, clothing, body language, visible characteristics
+- Psychology: Emotions, motivations, thoughts, beliefs, mental state
+- Sociology: Social roles, relationships, status, interactions with others
+- Consider the character’s development trajectory from nearby keyframes (if any)
+- Only include traits that are evident or strongly implied in the text
+- Keep trait descriptions concise (3-8 words each)
+- Return 2-5 traits per category when evident
+Evidence requirements:
+- For every trait you include, add one entry to traitEvidence with the traitCategory, the exact trait wording, and an evidenceText.
+- Each evidenceText must be a verbatim quote from the narration above (do NOT pull from the context section).
+- If you cannot find a direct quote, omit the trait entirely.
+Return JSON that matches the provided schema.

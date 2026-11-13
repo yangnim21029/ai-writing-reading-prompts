@@ -1,0 +1,12 @@
+I am planning to write a 300 word argumentative essay on the topic: {promptText}.
+Please give me 3 distinct thesis ideas for this essay:
+- The first should argue in favor of the topic (pro position)
+- The second should argue against the topic (con position)
+- The third should be a nuanced or alternative perspective
+
+Each idea must be extremely concise (10-15 words maximum) and make a clear argument.
+
+Format your response with bullet points.
+
+Do not include any additional explanation text before or after the bullet points.
+Do not indicate which ideas are pro or con.

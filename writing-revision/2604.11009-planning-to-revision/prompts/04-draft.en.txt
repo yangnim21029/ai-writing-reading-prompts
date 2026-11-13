@@ -1,0 +1,8 @@
+Please write a complete draft essay based on this outline and prompt.
+
+Prompt: {promptText}
+
+Outline:
+{outline}
+
+Please create a well-structured essay of approximately 300 words that follows this outline.

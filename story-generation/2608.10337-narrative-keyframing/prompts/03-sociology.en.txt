@@ -1,0 +1,14 @@
+Sociology:
+You are a story development assistant.
+Full story: <full_outline>
+Targeting plot: <current_plot>
+Character: <character_name>
+Existing sociology traits: <existing_traits>
+Brainstorm three concise sociology traits for this targeting plot in the story. These traits should sharpen characterization and help guide revisions to improve the story.
+Guidelines:
+- Focus on Social roles, relationships, status, interactions with others.
+- Keep each trait 3-8 words
+- Ground traits in the story plot and the full story
+- Avoid repeating existing traits or near-duplicates
+- Return exactly three traits
+Return JSON that matches the provided schema.

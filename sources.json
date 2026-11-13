@@ -1,0 +1,226 @@
+[
+  {
+    "path": "writing-revision/2604.11009-planning-to-revision/paper.pdf",
+    "source": "https://arxiv.org/pdf/2604.11009v2",
+    "license": "CC BY-NC-SA 4.0",
+    "changes": "Unmodified PDF",
+    "accessed": "2026-11-13",
+    "sha256": "1fec75e741aadc3cb6515a7400e6b0dec5deda3569b74a68adc27974b35ddd37"
+  },
+  {
+    "path": "writing-revision/2604.11009-planning-to-revision/prompts/01-thesis-ideas.en.txt",
+    "source": "https://arxiv.org/html/2604.11009v2#A3.SS1.SSS1",
+    "license": "CC BY-NC-SA 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "219341c8f9cc3e1fa115cf91cb8d8623ac189b5945746ea7ec47d57d58f19ea3"
+  },
+  {
+    "path": "writing-revision/2604.11009-planning-to-revision/prompts/02-more-thesis-ideas.en.txt",
+    "source": "https://arxiv.org/html/2604.11009v2#A3.SS1.SSS2",
+    "license": "CC BY-NC-SA 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "0483cee306c038283ade22b48b9f414f25a69f25bf1e6a1cc122e6992794b0c2"
+  },
+  {
+    "path": "writing-revision/2604.11009-planning-to-revision/prompts/03-outline.en.txt",
+    "source": "https://arxiv.org/html/2604.11009v2#A3.SS1.SSS3",
+    "license": "CC BY-NC-SA 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "7811d62b576e5df7efa0c47d57e87a8e3013486a508f1f9a790bc83789c0a787"
+  },
+  {
+    "path": "writing-revision/2604.11009-planning-to-revision/prompts/04-draft.en.txt",
+    "source": "https://arxiv.org/html/2604.11009v2#A3.SS2.SSS1",
+    "license": "CC BY-NC-SA 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "6b4b8d650f076a20e94960bc74cfc932a215e59b54fe1b81fea5ff8962aedecd"
+  },
+  {
+    "path": "writing-revision/2604.11009-planning-to-revision/prompts/05-proofreading.en.txt",
+    "source": "https://arxiv.org/html/2604.11009v2#A3.SS3.SSS1",
+    "license": "CC BY-NC-SA 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "292ca036d61d746489df37432d904092e956b82802d15eed59b5b43b9516e1ae"
+  },
+  {
+    "path": "writing-revision/2604.11009-planning-to-revision/prompts/06-writing-clarity.en.txt",
+    "source": "https://arxiv.org/html/2604.11009v2#A3.SS3.SSS2",
+    "license": "CC BY-NC-SA 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "04af11f77f1640fc266bb124c30e63c72a7c8bfaf1dbea875d5a4bf007c12cb7"
+  },
+  {
+    "path": "writing-revision/2604.11009-planning-to-revision/prompts/07-argument-improvement.en.txt",
+    "source": "https://arxiv.org/html/2604.11009v2#A3.SS3.SSS3",
+    "license": "CC BY-NC-SA 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "567abff46c3e5545267a4da15744fa817be293cd479c76b559431e18c6fa438c"
+  },
+  {
+    "path": "style-imitation/2601.18353-good-writing/paper.pdf",
+    "source": "https://arxiv.org/pdf/2601.18353v1",
+    "license": "CC BY 4.0",
+    "changes": "Unmodified PDF",
+    "accessed": "2026-11-13",
+    "sha256": "27121d97dcf57aa91084fc620c7269a5aecf7e5353238ef1a676cdd4d813ad02"
+  },
+  {
+    "path": "style-imitation/2601.18353-good-writing/prompts/style-imitation.adapted.en.txt",
+    "source": "https://arxiv.org/html/2601.18353v1#S3.SS1.SSS3",
+    "license": "Original adaptation; source method cited",
+    "changes": "New reusable wording based on the study method; literary excerpts and author-specific content omitted",
+    "accessed": "2026-11-13",
+    "sha256": "7acadc35bec8804cda721d313b8ceba74a0e65ca55e1c23e1b12df174622d485"
+  },
+  {
+    "path": "story-generation/2608.10337-narrative-keyframing/paper.pdf",
+    "source": "https://arxiv.org/pdf/2608.10337v1",
+    "license": "CC BY 4.0",
+    "changes": "Unmodified PDF",
+    "accessed": "2026-11-13",
+    "sha256": "2a2bb9e1853affa20ce5b31f5eace0bcfda57f3be40dcdd50c9367215f0051b2"
+  },
+  {
+    "path": "story-generation/2608.10337-narrative-keyframing/prompts/01-physiology.en.txt",
+    "source": "https://arxiv.org/html/2608.10337v1#A1.SS1",
+    "license": "CC BY 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "6d36337b6ae9b3b477fcf0c440a77edb307b56ad4ecd9f1a30f1f6c844908355"
+  },
+  {
+    "path": "story-generation/2608.10337-narrative-keyframing/prompts/02-psychology.en.txt",
+    "source": "https://arxiv.org/html/2608.10337v1#A1.SS2",
+    "license": "CC BY 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "45ef8c5d5d61ea781751ffd3535f89e2e997379b83da7b79c8621ab7a93f1a85"
+  },
+  {
+    "path": "story-generation/2608.10337-narrative-keyframing/prompts/03-sociology.en.txt",
+    "source": "https://arxiv.org/html/2608.10337v1#A1.SS3",
+    "license": "CC BY 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "6487763f13c93e9c89fd8eb57fcba9b746d670812d025c1dca494127d017b24d"
+  },
+  {
+    "path": "story-generation/2608.10337-narrative-keyframing/prompts/04-character-interpolation.en.txt",
+    "source": "https://arxiv.org/html/2608.10337v1#A1.SS4",
+    "license": "CC BY 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "c90c680001be20accf26cfaad8cbadc8c2d6de1fbe89554892de75b77aa12050"
+  },
+  {
+    "path": "story-generation/2608.10337-narrative-keyframing/prompts/05-first-person.en.txt",
+    "source": "https://arxiv.org/html/2608.10337v1#A1.SS5",
+    "license": "CC BY 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "260c72a3bcc4ef62c38069d43b80171260f92fb8f5065b7670c1807487e4eb49"
+  },
+  {
+    "path": "story-generation/2608.10337-narrative-keyframing/prompts/06-evidence.en.txt",
+    "source": "https://arxiv.org/html/2608.10337v1#A1.SS6",
+    "license": "CC BY 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "d30ad8ecf4ef1b8ad8f9117530171962e594e139c6604e2539995fa94d807e49"
+  },
+  {
+    "path": "story-generation/2608.10337-narrative-keyframing/prompts/07-third-person-1.en.txt",
+    "source": "https://arxiv.org/html/2608.10337v1#A1.SS7",
+    "license": "CC BY 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "d740db8adaf3e43ed20e56111bccfc6d0d108e94658d11484ba3e66c8eafe894"
+  },
+  {
+    "path": "story-generation/2608.10337-narrative-keyframing/prompts/07-third-person-2.en.txt",
+    "source": "https://arxiv.org/html/2608.10337v1#A1.SS7",
+    "license": "CC BY 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "9a1bff8223d61113c90d9742199bcf87d689bf714adc8794142ce4b914aadc6b"
+  },
+  {
+    "path": "close-reading/2603.06855-poem-interpretation/paper.pdf",
+    "source": "https://arxiv.org/pdf/2603.06855v1",
+    "license": "CC BY 4.0",
+    "changes": "Unmodified PDF",
+    "accessed": "2026-11-13",
+    "sha256": "d637dcbcf074812c246744c9268867dc3d212d0dd7720a161c6d456d7f679a43"
+  },
+  {
+    "path": "close-reading/2603.06855-poem-interpretation/prompts/close-reading-task.en.txt",
+    "source": "https://github.com/xxxxbrandieeee/close-reading-interface/blob/main/close-reading/src/pageInfo.ts",
+    "license": "MIT",
+    "changes": "Extracted page5_1.left_top_instruction; HTML removed; UI wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "b037f81dd0aa6155697767be71a25e5a92e86e5c5523341377a906bc8aa89fce"
+  },
+  {
+    "path": "human-ai-cowriting/2604.03529-incentives/paper.pdf",
+    "source": "https://arxiv.org/pdf/2604.03529v2",
+    "license": "CC BY 4.0",
+    "changes": "Unmodified PDF",
+    "accessed": "2026-11-13",
+    "sha256": "d0f26247776a3f2168ff4554476d3fd8e1a394ef534cada92f04c4cde117a888"
+  },
+  {
+    "path": "human-ai-cowriting/2604.03529-incentives/prompts/study1-quality-judge.en.txt",
+    "source": "https://arxiv.org/html/2604.03529v2#A2.SS2.SSSx1",
+    "license": "CC BY 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "a235b34b2afadfa04f04397294d688836788efd3c501dba101b3bc3f3fdef271"
+  },
+  {
+    "path": "human-ai-cowriting/2604.03529-incentives/prompts/study1-user-prompts.csv",
+    "source": "https://huggingface.co/datasets/nathanaeljo/ai-cocreation-incentives/blob/475a751e12ca548f51ad631673e1845330ad3c53/study1/processed/ai_requests.csv",
+    "license": "CC BY 4.0",
+    "changes": "Unmodified public CSV; participant IDs are upstream pseudonymous IDs",
+    "accessed": "2026-11-13",
+    "sha256": "8d46d4f8c2a63809f92efa21563fbd80e58536b695cfa2bd87bf928f07fb92e1"
+  },
+  {
+    "path": "human-ai-cowriting/2604.03529-incentives/prompts/study1-examples.md",
+    "source": "https://huggingface.co/datasets/nathanaeljo/ai-cocreation-incentives/blob/475a751e12ca548f51ad631673e1845330ad3c53/study1/processed/ai_requests.csv",
+    "license": "CC BY 4.0",
+    "changes": "First five nonempty participant rows extracted; wording retained; trailing whitespace removed",
+    "accessed": "2026-11-13",
+    "sha256": "5d40c5b9b9f94f1e90dc9aeaf82d8f6ff5da6b51ab4d9328058dbdc423a3caf6"
+  },
+  {
+    "path": "human-ai-cowriting/2604.03529-incentives/prompts/study2-quality-judge.en.txt",
+    "source": "https://arxiv.org/html/2604.03529v2#A2.SS2.SSSx2",
+    "license": "CC BY 4.0",
+    "changes": "HTML formatting removed; wording retained",
+    "accessed": "2026-11-13",
+    "sha256": "943979943b6fce593796315986649416a66ae57c1bbceafd2773159c74e2c789"
+  },
+  {
+    "path": "human-ai-cowriting/2604.03529-incentives/prompts/study2-user-prompts.csv",
+    "source": "https://huggingface.co/datasets/nathanaeljo/ai-cocreation-incentives/blob/475a751e12ca548f51ad631673e1845330ad3c53/study2/processed/ai_requests.csv",
+    "license": "CC BY 4.0",
+    "changes": "Unmodified public CSV; participant IDs are upstream pseudonymous IDs",
+    "accessed": "2026-11-13",
+    "sha256": "bf572aed5a1cd5aaf7619b646c0d2164b4e53c70dc750e15ea34685297727085"
+  },
+  {
+    "path": "human-ai-cowriting/2604.03529-incentives/prompts/study2-examples.md",
+    "source": "https://huggingface.co/datasets/nathanaeljo/ai-cocreation-incentives/blob/475a751e12ca548f51ad631673e1845330ad3c53/study2/processed/ai_requests.csv",
+    "license": "CC BY 4.0",
+    "changes": "First five nonempty participant rows extracted; wording retained; trailing whitespace removed",
+    "accessed": "2026-11-13",
+    "sha256": "a858343c43b289062754b6a83986233c197ab860460c344dfc552b6464d767c2"
+  }
+]

@@ -1,0 +1,27 @@
+You are an expert literary analyst. Identify direct textual evidence (i.e., verbatim phrases) that confirms the given character traits.
+Full story (background only---do NOT quote from this section):
+<group_context>
+Current plot (ONLY source for evidence):
+<reflection>
+Characters and traits to verify:
+<character_name>
+Physiology:
+- <trait_value>
+- <trait_value>
+Psychology:
+- <trait_value>
+Sociology:
+- <trait_value>
+Evidence categories to classify each phrase:
+- directDefinition: Explicit direct statements or labels about the character
+- actions: Physical actions, behaviors, or body language
+- speech: What the character says, how they speak, or how other characters say about them
+- appearance: Visual descriptions of the character
+- environment: Surroundings, context, or setting that characterizes the person
+Instructions:
+1. Scan the current snippet for exact short phrases that directly or indirectly demonstrate each listed trait.
+2. Only report evidence that appears verbatim in the current snippet text.
+3. When one phrase supports multiple traits from the same category, list all matching traits together.
+4. Assign each phrase to exactly one evidence category from the list above.
+5. Return characterEvidence entries in the same order as the character list above.
+6. Return JSON that matches the provided schema exactly. Do not include explanations outside the schema.

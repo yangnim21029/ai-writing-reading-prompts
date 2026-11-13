@@ -1,0 +1,7 @@
+Generate a single interesting thesis statement for a 300-word argumentative essay on the topic: {promptText}.
+The statement must be extremely concise (10-15 words maximum) and make a clear argument.
+
+Here are the existing ideas that have already been generated (DO NOT repeat these or anything similar):
+{existingIdeas}
+
+Provide ONLY the thesis statement with no additional text, introduction, or explanation.
