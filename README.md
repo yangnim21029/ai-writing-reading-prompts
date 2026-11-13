@@ -14,6 +14,20 @@
 | AI 解讀與詩歌細讀 | [What Does AI Do for Cultural Interpretation?](close-reading/2603.06855-poem-interpretation/) | 辨認文本特徵、引用詩句與解釋閱讀效果的任務指示 |
 | 協作寫作與獎勵制度 | [Incentives Shape How Humans Co-Create](human-ai-cowriting/2604.03529-incentives/) | 參與者的多輪提示紀錄，以及短故事與商品簡介的評分 prompts |
 
+## Prompt 比較的證據
+
+這五篇已收錄的實驗中，尚未找到「論文公開的 prompt」與「由另一個 AI 生成的短 prompt」的直接對照。本庫也沒有另行執行這項測試。各研究實際使用的比較條件如下。
+
+| 論文 | 實際比較條件 | 能回答的問題 |
+|---|---|---|
+| Narrative Keyframing | 同一個 GPT-4.1、相同故事大綱；多步驟生成流程 vs. 一般大綱擴寫 | 這套流程是否優於該大綱擴寫基準 |
+| From Planning to Revision | 不同寫作階段的 AI 支援 vs. 無 AI | AI 在哪個寫作階段介入，如何影響品質與心理所有權 |
+| Can Good Writing Be Generative? | 提供範文的模型、微調模型與人類作者 | 不同模型條件與人類作品的評審偏好如何不同 |
+| What Does AI Do for Cultural Interpretation? | 閱讀單份或多份 AI 解讀 vs. 未接觸 AI 解讀 | 接觸 AI 解讀是否影響讀者之後的文本分析 |
+| Incentives Shape How Humans Co-Create | 有無 AI 與不同獎勵條件 | AI 使用與獎勵制度如何影響作品及協作過程 |
+
+最接近一般 prompt 對照的是 [Narrative Keyframing 的技術評估](https://arxiv.org/html/2608.10337v1#S6.SS1.SSS1)。作者將對照稱為 vanilla prompt-based LLM baseline，但未將其描述為「另一個 AI 生成的短 prompt」。實驗條件同時加入角色設定、第一人稱敘述及證據整合等步驟，因此結果支持的是整套方法相對於該基準的效果，不能單獨歸因於提示詞長度或措辭。
+
 ## 寫作階段與心理所有權
 
 ### From Planning to Revision: How AI Writing Support at Different Stages Alters Ownership
